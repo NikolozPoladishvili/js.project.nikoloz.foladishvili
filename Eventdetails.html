@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <link rel="stylesheet" href="styleed.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        #map {
+            width: 100%;
+            height: 300px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Resolving Conflicts Between Designers</h1>
+            <nav>
+                <a href="#">Home</a> > <a href="#">Career</a> > Event
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="event">
+            <div class="image-container">
+                <img src="pictures/event_details_img.jpg.png" alt="Event" class="event-image">
+                <aside class="event-sidebar">
+                    <div class="details">
+                        <h3>Event Price</h3>
+                        <p>$19.00</p>
+                        <h3>Event Details</h3>
+                        <p><strong>Date:</strong> December 30, 2024</p>
+                        <p><strong>Time:</strong> 5:00 PM - 7:00 PM</p>
+                        <p><strong>Location:</strong> Los Angeles, CA</p>
+                    </div>
+
+                    <button class="join-btn" id="joinBtn">Join This Event</button>
+                    <div id="map">
+                        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8710809752186!2d-73.99457608459408!3d40.7488171793277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18b6c4d5%3A0x4b14ed7177f9d2e0!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1639572941390!5m2!1sen!2sus"></iframe>
+                    </div>
+                </aside>
+            </div>
+            <div class="event-details">
+                <h2>How To Become Ridiculously Self-Aware in 20 Minutes</h2>
+                <p class="author">By David Smith | Last updated: December 25, 2024 | 2,300 Students</p>
+                <hr>
+                <div class="overview">
+                    <h3>Event Overview</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div>
+                    <h3>What will you learn in this event</h3>
+                    <p>Discover effective techniques for personal growth and self-awareness.</p>
+                </div>
+
+                <div class="learn">
+                    <img style="margin-right: auto;" src="pictures/event_details_img02.jpg.png" alt="">
+                    <div style="flex-direction: column;">
+                        <h3>Four major elements we offer for this event</h3>
+                        <ul>
+                            <li>Work with colors and gradient grids</li>
+                            <li>All the useful shortcuts</li>
+                            <li>Be able to create flares brochures advertisements</li>
+                            <li>How to work with images and text</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SkillGro. All rights reserved.</p>
+        </div>
+        <script src="main.js"></script>
+    </footer>

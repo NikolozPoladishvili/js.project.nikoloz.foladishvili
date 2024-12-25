@@ -1,0 +1,50 @@
+
+main 
+{
+    width: 1920px;
+    height: 1423.7px;
+    background-color: white;
+
+}
+form
+{
+    border-radius: 10px;
+    border: solid 1px grey;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 690px;
+    height: 883.7px;
+    background: #F7F7FA;
+}
+footer 
+{
+    width: 1920px;
+    height: 579.59px;
+    background-color: #06042E;
+}
+header
+{   
+    background-color: #06042E;
+    width: 1920px;
+    height: 90px;
+}
+.SkillGro
+{
+    display: flex;
+    width: 1920px;
+    height: 50px;
+    background-color: white;
+    align-items: center;
+}
+.Address
+{
+    width: 1920px;
+    height: 40px;
+    color: #F7F7FA;
+    background-color: #06042E;
+
+}

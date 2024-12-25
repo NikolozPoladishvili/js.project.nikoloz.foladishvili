@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/ed36/4381/b1240ad2ca8012275e48a5b13fd0cc96?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pBerz0kBxYOc~UsSIoKdT68QJwLhpoxNPzTJlk4s-aExmkXnSlBeteT~juN~vCfD7639Z3uSF7zKHdeNhQ7bXJo~x3NFcopXERgBUnccDHvB0769v1iBPdWGY3-k0pyPqhJakvr54ZMYm9NNJJLW5386T6achYm0lXZZKwUy15pNH7JO8ypaLBazaU5SX43qTYG8s1vOVWwgXkvjeIWLv5Pq3nXeXxbTkT1TpjZWHqWsLD5jhrYpBYNCS1XEfCMAlfSQGUDYAEUb7Fv15wNZ3s5AwqYqI0Ziya6NRRhGHOiYw5GSjsb~gktvj~mJuN718XakwXD9tweemcUdU2JhRQ__);
+}
+
+.header {
+    background-color: #06042E;
+
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    max-width: 400px;
+}
+
+.info-box {
+    display: flex;
+    background: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    flex: 2;
+    max-width: 600px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+#contactForm textarea,
+#contactForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+#contactForm button {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #e0a800;
+}
+
+.map-container {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #06042E;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.info-box img {
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px; 
+    object-fit: contain; 
+}
